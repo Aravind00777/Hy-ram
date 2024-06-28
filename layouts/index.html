@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="" />
+    <title></title>
+
+    <!-- owl-carousel links -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <!-- css links -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- ----- -->
+</head>
+
+<body class="font-pop">
+    <!-- ============================ -->
+    <!-- = Header = -->
+    <!-- ============================ -->
+    <header class="py-3.5 px-10 xl:px-10 lg:px-8 md:px-7 sm:px-6 fixed w-full z-999 bg-white top-0">
+        <div class="container">
+            <nav class="w-full flex justify-between align-middle items-center">
+                <a class="w-full md:basis-44 sm:basis-44 md:w-44 sm:w-44 max-w-[13rem] basis-52 2xl:max-w-[13rem] 2xl:basis-52 xl:max-w-[13rem] xl:basis-52 lg:max-w-[13rem] lg:basis-52"
+                    href="#"><img class="object-contain w-full h-full" src="assets/image/logo.png" alt=""></a>
+                <div class="space-y-2 rounded block 2xl:hidden xl:hidden lg:hidden md:block sm:block cursor-pointer z-999 relative"
+                    id="burger">
+                    <span class="block w-8 h-0.5 bg-regal-200 animate-pulse"></span>
+                    <span class="block w-8 h-0.5 bg-regal-200 animate-pulse"></span>
+                    <span class="block w-8 h-0.5 bg-regal-200 animate-pulse"></span>
+                </div>
+                <div id="main-menu"
+                    class=" w-auto 2xl:w-auto xl:w-auto lg:w-auto md:w-full sm:w-full h-full 2xl:h-full xl:h-full lg:h-full md:h-screen sm:h-screen relative xl:relative lg:relative md:fixed sm:fixed left-0 top-0 xl:left-0 xl:top-0 lg:left-0 lg:top-0 md:-left-full sm:-left-full md:top-0 transition-all duration-500 2xl:bg-transparent xl:bg-transparent lg:bg-transparent md:bg-white sm:bg-white 2xl:p-0 xl:p-0 lg:p-0 md:p-[30%] sm:p-[20%] overflow-auto">
+                    <ul
+                        class="flex items-center justify-end 2xl:justify-end xl:justify-end lg:justify-end md:justify-center sm:justify-center h-full 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col">
+                        <li class="px-3 xl:px-3 lg:px-2 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a href="#" class="text-regal-200 font-semibold	font-pop text-sm">About</a>
+                        </li>
+                        <li class="px-3 xl:px-3 lg:px-2 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a href="#" class="text-regal-200 font-semibold	text-sm">Products</a>
+                        </li>
+                        <li class="px-3 xl:px-3 lg:px-2 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a href="#" class="text-regal-200 font-semibold	text-sm">Sales</a>
+                        </li>
+                        <li class="px-3 xl:px-3 lg:px-2 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a href="#" class="text-regal-200 font-semibold	text-sm">Hire</a>
+                        </li>
+                        <li class="px-3 xl:px-3 lg:px-2 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a href="#" class="text-regal-200 font-semibold	text-sm">Repair</a>
+                        </li>
+                        <li class="flex mx-3 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a href="#" class="text-regal-200 font-semibold	text-sm">Search</a>
+                            <button class=""><img class="ml-2 object-contain" src="assets/image/search-icon.png"
+                                    alt=""></button>
+                        </li>
+                        <li
+                            class="ml-5 xl:ml-5 lg:ml-4 mr-7 xl:mr-7 lg:mr-6 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <a class="flex items-center group px-2 uppercase relative py-1 bg-regal-100 rounded-br-3xl hover:bg-regal-200 transition-all duration-300"
+                                href="#"><span class="text-regal-200 font-semibold text-sm group-hover:text-white">Get a
+                                    Quote</span>
+                                <img class="ml-2 object-contain group-hover:hidden" src="assets/image/header-arrow.png"
+                                    alt="">
+                                <img class="ml-2 object-contain hidden group-hover:block"
+                                    src="assets/image/white-sm-arrow.png" alt="">
+                            </a>
+                        </li>
+                        <li
+                            class="relative px-3 xl:px-3 lg:px-2 md:px-0 sm:px-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-5 sm:mb-5">
+                            <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover"
+                                data-dropdown-trigger="{hover|click}"
+                                class="font-semibol text-regal-200 font-semibold rounded-lg text-sm text-center inline-flex items-center "
+                                type="button"><img class="object-contain w-6 mr-2" src="assets/image/language.png"
+                                    alt=""> EN<svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                </svg></button>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownHover"
+                                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 xl:w-32 lg:w-32 dark:bg-gray-700 left-0 xl:-left-5 lg:-left-5 absolute ">
+                                <ul class="py-2 text-sm text-gray-700 w-full dark:text-gray-200"
+                                    aria-labelledby="dropdownHoverButton">
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-sm">Earnings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-sm">Sign
+                                            out</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ============================ -->
+    <!-- = banner = -->
+    <!-- ============================ -->
+    <section
+        class="p-140 xl:p-140 lg:pb-[80px] md:pb-[60px] sm:pb-[60px] lg:pt-[65px] md:pt-[60px] sm:pt-[60px] bg-[url('../image/banner-img.png')] m-190 2xl:m-190 xl:m-190 lg:m-190 md:mt-[76px] sm:mt-[76px] bg-cover bg-no-repeat bg-center">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <span
+                class="text-18 xl:text-[17px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-white block font-bold">Welcome
+                to Hy-Ram</span>
+            <div class="max-w-570">
+                <h1
+                    class="pt-20 xl:pt-16 lg:pt-14 md:pt-12 sm:pt-10 pb-20 xl:pb-16 lg:pb-14 md:pb-12 sm:pb-14 leading-1/4">
+                    <span
+                        class="text-49 xl:text-49 lg:text-[40px] md:text-[35px] sm:text-[25px] font-bold text-regal-100 block ">Specialist
+                        equipment</span>
+                    <span
+                        class="font-bold text-41 xl:text-41 lg:text-[34px] md:text-[30px] sm:text-[25px] text-white block">and
+                        tooling for Distribution
+                        Pipelines… Worldwide.</span>
+                </h1>
+            </div>
+            <div class="flex items-center">
+                <a href="#"
+                    class="block mr-6 max-w-[52px] 2xl:max-w-[52px] xl:max-w-[52px] lg:max-w-[52px] md:max-w-[40px] sm:max-w-[40px]"><img
+                        class="object-contain" src="assets/image/pause-btn.png" alt=""></a>
+                <span
+                    class="text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] text-white block font-semibold ">Watch
+                    our <br>
+                    Corporate video</span>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = yellow seciton = -->
+    <!-- ============================ -->
+    <section class="py-8 xl:py-7 lg:py-6 md:py-6 sm:py-6 bg-regal-100 ">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <div
+                class="flex justify-center items-center 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+                <span
+                    class="block text-20 xl:text-20 lg:text-[18px] md:text-[16px] text-black leading-1/5 font-bold mr-10 xl:mr-8 lg:mr-1 md:mr-1 sm:mr-0 2xl:text-left xl:text-left lg:text-left md:text-left sm:text-center 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-8">Need
+                    help with the installation &
+                    maintenance of distribution pipelines for your project?</span>
+                <a class=" bg-regal-200 rounded-br-3xl text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] text-white uppercase font-bold px-2.5 py-2 max-w-136 w-full after:content-[''] after:absolute after:right-3 after:top-4 after:w-3 after:h-2 after:z-10 after:bg-no-repeat after:bg-contain after:bg-center after:bg-[url('../image/white-sm-arrow.png')] relative"
+                    href="#">Get a Quote
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = speacialist seciton = -->
+    <!-- ============================ -->
+    <section class="py-24 xl:py-20 lg:py-20 md:py-16 sm:py-16 relative">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <div
+                class="mx-auto text-center shadow-[4px_5px_12px_0px_rgba(0,0,0,0.17)] p-9 2xl:p-9 xl:p-9 lg:p-7 md:p-6 sm:p-6 max-w-980 xl:max-w-[84%] lg:max-w-[84%] md:max-w-[84%]">
+                <span
+                    class="block text-20 2xl:text-20 xl:text-20 lg:text-[18px] md:text-[17px] sm:text-[17px] font-semibold text-regal-200 leading-1/4 pb-2">OUR
+                    PRODUCTS</span>
+                <h2
+                    class="text-30 xl:text-30 lg:text-[24px] md:text-[22px] sm:text-[20px] font-semibold text-regal-200 leading-1/5">
+                    Specialist equipment and tooling for
+                    distribution pipelines</h2>
+            </div>
+        </div>
+        <figure
+            class="absolute w-52 h-485 xl:w-[11%] lg:w-[11%] md:w-[11%] xl:h-[111%] lg:h-[111%] md:h-[111%] right-0 -bottom-40 xl:-bottom-[44%] lg:-bottom-[44%] z-1 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="w-full object-contain" src="assets/image/half-circle.png" alt="">
+        </figure>
+    </section>
+    <!-- ============================ -->
+    <!-- = carousel seciton = -->
+    <!-- ============================ -->
+    <section class="bg-regal-400 py-14 relative">
+        <figure
+            class="absolute w-52 2xl:w-52 xl:w-[9%] lg:w-[10%] md:w-[10%] h-485f 2xl:h-485f xl:h-[30%] lg:h-[30%] md:h-[30%] left-0 top-1/2 -translate-y-1/2 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="w-full h-full object-contain" src="assets/image/half-circle1.png" alt="">
+        </figure>
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <ul
+                class="owl-carousel owl-carousel-cnt max-w-1080 xl:max-w-[85%] lg:max-w-[85%] md:max-w-[85%] sm:max-w-[85%] mx-auto">
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img1.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Butt
+                            Fusion</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A comprehensive range of Butt
+                            Fusion Machines and accessories
+                            for jointing PE pipes.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure
+                        class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44 after:content-[''] after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:bg-regal-500 relative after:opacity-60">
+                        <img class="object-contain h-full" src="assets/image/carousel-img2.png" alt="">
+                    </figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Electrofusion</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A complete range of tools,
+                            equipment and welding units
+                            for use with PE pipes.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img3.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Ancillary
+                            Equipment</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">Ancillary equipment for Butt
+                            Fusion and Electrofusion including:
+                            pipe rollers, de-beaders, shelters and more.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img1.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Butt
+                            Fusion</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A comprehensive range of Butt
+                            Fusion Machines and accessories
+                            for jointing PE pipes.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure
+                        class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44 after:content-[''] after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:bg-regal-500 relative after:opacity-60">
+                        <img class="object-contain h-full" src="assets/image/carousel-img2.png" alt="">
+                    </figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Electrofusion</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A complete range of tools,
+                            equipment and welding units
+                            for use with PE pipes.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img3.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Ancillary
+                            Equipment</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">Ancillary equipment for Butt
+                            Fusion and Electrofusion including:
+                            pipe rollers, de-beaders, shelters and more.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul
+                class="owl-carousel owl-carousel-cnt max-w-1080 xl:max-w-[85%] lg:max-w-[85%] md:max-w-[85%] sm:max-w-[85%] mx-auto mt-14">
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img4.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">PE
+                            Pipe Squeeze Off</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">As one of the largest manufacturers
+                            worldwide, we can offer PE pipe
+                            squeeze off from 16mm-500mm.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img5.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Pipe
+                            Cutters</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A full range of pipe cutting
+                            equipment, for most materials,
+                            up to 1600mm diameter.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img6.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Under
+                            Pressure Drilling</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A variety of solutions both for water
+                            and gas applications for drilling, tapping,
+                            valve insertion and flow stopping.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img4.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">PE
+                            Pipe Squeeze Off</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">As one of the largest manufacturers
+                            worldwide, we can offer PE pipe
+                            squeeze off from 16mm-500mm.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img5.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Pipe
+                            Cutters</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A full range of pipe cutting
+                            equipment, for most materials,
+                            up to 1600mm diameter.</p>
+                    </div>
+                </li>
+                <li class="">
+                    <figure class="bg-white p-2.5 h-72 2xl:h-72 xl:h-60 lg:h-44 md:h-44 sm:h-44"><img
+                            class="object-contain h-full" src="assets/image/carousel-img6.png" alt=""></figure>
+                    <div class="pt-6">
+                        <span
+                            class="text-25 xl:text-25 lg:text-[20px] md:text-[19px] sm:text-[18px] text-black font-semibold leading-1/4">Under
+                            Pressure Drilling</span>
+                        <p class="text-sm text-regal-300 font-normal leading-1/5">A variety of solutions both for water
+                            and gas applications for drilling, tapping,
+                            valve insertion and flow stopping.</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = years seciton = -->
+    <!-- ============================ -->
+    <section class="py-236 relative">
+        <figure
+            class="absolute left-0 bottom-14 max-w-278 2xl:max-w-278 xl:max-w-[13%] lg:max-w-[13%] md:max-w-[13%] w-full h-485f 2xl:h-485f xl:h-[38%] lg:h-[38%] md:h-[30%] 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="object-contain w-full h-full" src="assets/image/half-circle2.png" alt="">
+        </figure>
+        <figure
+            class="absolute right-0 top-10 max-w-411 2xl:max-w-[18.5%] xl:max-w-[13%] lg:max-w-[13%] md:max-w-[13%] w-full h-577 2xl:h-577 xl:h-[30%] lg:h-[30%] md:h-[30%] 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="object-contain w-full h-full" src="assets/image/half-circle3.png" alt="">
+        </figure>
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <div
+                class="flex items-start justify-center 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+                <div
+                    class=" basis-1/2 2xl:basis-1/2 xl:basis-1/2 lg:basis-1/2 md:basis-1/2 sm:basis-full 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9">
+                    <figure
+                        class="w-full relative max-w-468 xl:max-w-[66%] lg:max-w-[66%] md:max-w-[66%] sm:max-w-[66%] ml-0 xl:ml-[10%] lg:ml-[10%] md:ml-[10%] 2xl:mx-0 xl:mx-0 lg:mx-0 md:mx-0 sm:mx-auto">
+                        <img src="assets/image/year-sec-img.png" class="object-contain w-full" alt="">
+                        <div
+                            class="absolute w-[55%] h-557 bg-regal-600 -top-20 2xl:-top-20 xl:-top-20 lg:-top-20 md:-top-7 -left-14 2xl:-left-14 xl:-left-14 lg:-left-14 md:-left-6 -z-10 2xl:block xl:block lg:block md:block sm:hidden">
+                        </div>
+                        <div
+                            class="absolute w-[55%] h-492 bg-regal-600 -bottom-20 2xl:-bottom-20 xl:-bottom-20 lg:-bottom-20 md:-bottom-7 -right-14 2xl:-right-14 xl:-right-14 lg:-right-14 md:-right-6 -z-10 2xl:block xl:block lg:block md:block sm:hidden">
+                        </div>
+                    </figure>
+                </div>
+                <div
+                    class="basis-1/2 2xl:basis-1/2 xl:basis-1/2 lg:basis-1/2 md:basis-1/2 sm:basis-full relative z-10 2xl:text-left xl:text-left lg:text-left md:text-left sm:text-center">
+                    <figure
+                        class="absolute left-0 max-w-530 w-full top-1/2 -translate-y-1/2 -translate-x-1/2 h-887 2xl:h-887 2xl:block xl:block lg:block md:hidden sm:hidden">
+                        <img class="object-contain w-full h-full" src="assets/image/lines.png" alt="">
+                    </figure>
+                    <h2><span
+                            class="text-159 xl:text-[130px] lg:text-[100px] md:text-[80px] sm:text-[50px] text-regal-700 font-bold block leading-one">45+</span>
+                        <span
+                            class="text-97 xl:text-[80px] lg:text-[60px] md:text-[40px] sm:text-[30px] text-regal-700 font-bold block leading-one">YEARS
+                            OF</span>
+                    </h2>
+                    <h3
+                        class="text-35 xl:text-[30px] lg:text-[25px] md:text-[23px] sm:text-[20px] text-regal-700 font-bold block leading-1/5 pb-6 xl:pb-5 lg:pb-3 md:pb-3 sm:pb-3">
+                        ENGINEERING EXCELLENCE</h3>
+                    <p class="text-sm leading-1/5 text-regal-700 font-semibold pb-6 xl:pb-5 lg:pb-3 md:pb-3 sm:pb-3">
+                        Here at Hy-Ram Engineering we offer complete solutions for joining,
+                        installing and maintaining HDPE pipework through Electrofusion and
+                        Butt Fusion equipment for the water and gas industries.</p>
+                    <p class="text-regal-300 font-normal text-sm leading-1/5">Founded and based in the UK with over 45
+                        years of engineering experience and knowledge,
+                        Hy-Ram Engineering now have a global presence and an international reputation for high
+                        quality and innovative products for the joining of plastic and metallic pipework.</p>
+                    <div
+                        class="flex pt-6 xl:pt-5 lg:pt-4 md:pt-4 sm:pt-4 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col 2xl:items-start xl:items-start lg:items-start md:items-start sm:items-center">
+                        <a class="flex items-center group px-2.5 2xl:mr-9 xl:mr-9 lg:mr-7 md:mr-1 sm:mr-0 py-2 relative 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-7 bg-regal-200 rounded-br-3xl hover:bg-regal-100 transition-all duration-300 max-w-180 w-full"
+                            href="#"><span class="text-white font-semibold text-sm group-hover:text-regal-200">More
+                                About US</span>
+                            <img class="ml-4 object-contain hidden group-hover:block"
+                                src="assets/image/header-arrow.png" alt="">
+                            <img class="ml-4 object-contain group-hover:hidden" src="assets/image/white-sm-arrow.png"
+                                alt="">
+                        </a>
+                        <a class="flex items-center group px-2.5 py-2 relative  bg-regal-200 rounded-br-3xl hover:bg-regal-100 transition-all duration-300 max-w-180 w-full"
+                            href="#"><span class="text-white font-semibold text-sm group-hover:text-regal-200">Watch Our
+                                Video</span>
+                            <img class="ml-2 object-contain hidden group-hover:block"
+                                src="assets/image/header-arrow.png" alt="">
+                            <img class="ml-2 object-contain group-hover:hidden" src="assets/image/white-sm-arrow.png"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = commited seciton = -->
+    <!-- ============================ -->
+    <section class="py-16 2xl:py-16 xl:py-14 lg:py-12 md:py-12 sm:py-10 bg-regal-400">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <div
+                class="max-w-980 xl:max-w-[92%] lg:max-w-[92%] mx-auto px-10 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-0">
+                <h2
+                    class="font-bold text-regal-200 text-30 xl:text-30 lg:text-[27px] md:text-[25px] sm:text-[22px] leading-1/5 text-center">
+                    We’re committed to delivering exceptional results, value
+                    for money and unrivalled support to our customers</h2>
+            </div>
+            <ul class="flex items-center justify-center mt-16 xl:mt-14 lg:mt-12 md:mt-10 sm:mt-10 flex-wrap">
+                <li
+                    class="border-r border-r-regal-200 2xl:border-r xl:border-r lg:border-r md:border-r sm:border-r-0 basis-1/5 2xl:basis-1/5 xl:basis-1/5 lg:basis-1/5 md:basis-1/5 sm:basis-full p-6">
+                    <figure class="w-16 2xl:w-16 xl:w-16 lg:w-14 md:w-12 mx-auto"><img
+                            class="object-contain w-full h-full" src="assets/image/clock-img1.png" alt=""></figure>
+                    <span
+                        class="text-18 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-regal-200 font-semibold leading-1/5 mt-4 block text-center uppercase">QUICK
+                        <br>
+                        TURNAROUND</span>
+                </li>
+                <li
+                    class="border-r border-r-regal-200 2xl:border-r xl:border-r lg:border-r md:border-r sm:border-r-0 basis-1/5 2xl:basis-1/5 xl:basis-1/5 lg:basis-1/5 md:basis-1/5 sm:basis-full p-6">
+                    <figure class="w-16 2xl:w-16 xl:w-16 lg:w-14 md:w-12 mx-auto"><img
+                            class="object-contain w-full h-full" src="assets/image/clock-img2.png" alt=""></figure>
+                    <span
+                        class="text-18 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-regal-200 font-semibold leading-1/5 mt-4 block text-center uppercase">GLOBAL
+                        <br>
+                        EXPORT</span>
+                </li>
+                <li
+                    class="border-r border-r-regal-200 2xl:border-r xl:border-r lg:border-r md:border-r sm:border-r-0 basis-1/5 2xl:basis-1/5 xl:basis-1/5 lg:basis-1/5 md:basis-1/5 sm:basis-full p-6">
+                    <figure class="w-16 2xl:w-16 xl:w-16 lg:w-14 md:w-12 mx-auto"><img
+                            class="object-contain w-full h-full" src="assets/image/clock-img3.png" alt=""></figure>
+                    <span
+                        class="text-18 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-regal-200 font-semibold leading-1/5 mt-4 block text-center uppercase">QUALITY
+                        <br>
+                        ASSURED</span>
+                </li>
+                <li class="basis-1/5 2xl:basis-1/5 xl:basis-1/5 lg:basis-1/5 md:basis-1/5 sm:basis-full p-6">
+                    <figure class="w-16 2xl:w-16 xl:w-16 lg:w-14 md:w-12 mx-auto"><img
+                            class="object-contain w-full h-full" src="assets/image/clock-img4.png" alt=""></figure>
+                    <span
+                        class="text-18 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-regal-200 font-semibold leading-1/5 mt-4 block text-center uppercase">MADE
+                        IN <br>
+                        THE UK</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = customer seciton = -->
+    <!-- ============================ -->
+    <section class="py-32 2xl:py-32 xl:py-32 lg:py-32 md:py-20 sm:py-12">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <div class="max-w-1150 mx-auto xl:max-w-[85%] lg:max-w-[85%] md:max-w-[85%] sm:max-w-[85%]">
+                <ul
+                    class="owl-carousel owl-cnt-body relative 2xl:text-left xl:text-left lg:text-left md:text-left sm:text-center">
+                    <li
+                        class="px-16 2xl:px-16 xl:px-10 lg:px-10 md:px-8 sm:px-5 py-11 xl:py-8 lg:py-8 md:py-7 sm:py-5 flex items-center 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse">
+                        <div
+                            class="basis-3/5 2xl:basis-3/5 xl:basis-3/5 lg:basis-3/5 md:basis-3/5 sm:basis-full max-w-3/5 2xl:max-w-3/5 xl:max-w-3/5 lg:max-w-3/5 md:max-w-3/5 sm:max-w-full pr-24 xl:pr-20 lg:pr-5 md:pr-5 sm:pr-5">
+                            <h2
+                                class="leading-1/5 font-semibold text-30 xl:text-30 lg:text-[27px] md:text-[25px] sm:text-[20px] text-black">
+                                What our customers say…</h2>
+                            <figure
+                                class="w-52 xl:w-44 lg:w-40 md:w-32 sm:w-20 pt-3 pb-7 xl:pb-6 lg:pb-4 md:pb-4 sm:pb-4 2xl:mx-0 xl:mx-0 lg:mx-0 md:mx-0 sm:mx-auto">
+                                <img class="object-contain w-full h-full" src="assets/image/star.png" alt="">
+                            </figure>
+                            <p
+                                class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-regal-200 font-semibold leading-1/5">
+                                “We have been working in partnership with Hy-Ram for many
+                                years and over that time they have proven to be an important part
+                                of our business. As Category Managers we need to be able to rely on
+                                our preferred suppliers and I can safely say we can rely on Hy-Ram.”</p>
+                            <div class="pt-5">
+                                <span
+                                    class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-black font-medium leading-1/5 block">Michael
+                                    Bandy,
+                                </span>
+                                <span
+                                    class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-black font-light leading-1/5 block">Category
+                                    Manager Plant & Hired Services, Kier Group</span>
+                            </div>
+                        </div>
+                        <div
+                            class="basis-2/5 2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:basis-2/5 sm:basis-full max-w-2/5 2xl:max-w-2/5 xl:max-w-2/5 lg:max-w-2/5 md:max-w-2/5 sm:max-w-full w-full 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-6">
+                            <div
+                                class="max-w-293 xl:max-w-293 lg:max-w-[220px] md:max-w-[175px] sm:max-w-[140px] h-293 xl:h-293 lg:h-[220px] md:h-[175px] sm:h-[140px] bg-regal-200 shadow-[0px_3px_8px_0px_rgba(0,0,0,0.36)] w-full rounded-full mx-auto border-8 border-white">
+                            </div>
+                        </div>
+                    </li>
+                    <li
+                        class="px-16 2xl:px-16 xl:px-10 lg:px-10 md:px-8 sm:px-5 py-11 xl:py-8 lg:py-8 md:py-7 sm:py-5 flex items-center 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse">
+                        <div
+                            class="basis-3/5 2xl:basis-3/5 xl:basis-3/5 lg:basis-3/5 md:basis-3/5 sm:basis-full max-w-3/5 2xl:max-w-3/5 xl:max-w-3/5 lg:max-w-3/5 md:max-w-3/5 sm:max-w-full pr-24 xl:pr-20 lg:pr-5 md:pr-5 sm:pr-5">
+                            <h2
+                                class="leading-1/5 font-semibold text-30 xl:text-30 lg:text-[27px] md:text-[25px] sm:text-[20px] text-black">
+                                What our customers say…</h2>
+                            <figure
+                                class="w-52 xl:w-44 lg:w-40 md:w-32 sm:w-20 pt-3 pb-7 xl:pb-6 lg:pb-4 md:pb-4 sm:pb-4 2xl:mx-0 xl:mx-0 lg:mx-0 md:mx-0 sm:mx-auto">
+                                <img class="object-contain w-full h-full" src="assets/image/star.png" alt="">
+                            </figure>
+                            <p
+                                class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-regal-200 font-semibold leading-1/5">
+                                “We have been working in partnership with Hy-Ram for many
+                                years and over that time they have proven to be an important part
+                                of our business. As Category Managers we need to be able to rely on
+                                our preferred suppliers and I can safely say we can rely on Hy-Ram.”</p>
+                            <div class="pt-5">
+                                <span
+                                    class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-black font-medium leading-1/5 block">Michael
+                                    Bandy,
+                                </span>
+                                <span
+                                    class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-black font-light leading-1/5 block">Category
+                                    Manager Plant & Hired Services, Kier Group</span>
+                            </div>
+                        </div>
+                        <div
+                            class="basis-2/5 2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:basis-2/5 sm:basis-full max-w-2/5 2xl:max-w-2/5 xl:max-w-2/5 lg:max-w-2/5 md:max-w-2/5 sm:max-w-full w-full 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-6">
+                            <div
+                                class="max-w-293 xl:max-w-293 lg:max-w-[220px] md:max-w-[175px] sm:max-w-[140px] h-293 xl:h-293 lg:h-[220px] md:h-[175px] sm:h-[140px] bg-regal-200 shadow-[0px_3px_8px_0px_rgba(0,0,0,0.36)] w-full rounded-full mx-auto border-8 border-white">
+                            </div>
+                        </div>
+                    </li>
+                    <li
+                        class="px-16 2xl:px-16 xl:px-10 lg:px-10 md:px-8 sm:px-5 py-11 xl:py-8 lg:py-8 md:py-7 sm:py-5 flex items-center 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse">
+                        <div
+                            class="basis-3/5 2xl:basis-3/5 xl:basis-3/5 lg:basis-3/5 md:basis-3/5 sm:basis-full max-w-3/5 2xl:max-w-3/5 xl:max-w-3/5 lg:max-w-3/5 md:max-w-3/5 sm:max-w-full pr-24 xl:pr-20 lg:pr-5 md:pr-5 sm:pr-5">
+                            <h2
+                                class="leading-1/5 font-semibold text-30 xl:text-30 lg:text-[27px] md:text-[25px] sm:text-[20px] text-black">
+                                What our customers say…</h2>
+                            <figure
+                                class="w-52 xl:w-44 lg:w-40 md:w-32 sm:w-20 pt-3 pb-7 xl:pb-6 lg:pb-4 md:pb-4 sm:pb-4 2xl:mx-0 xl:mx-0 lg:mx-0 md:mx-0 sm:mx-auto">
+                                <img class="object-contain w-full h-full" src="assets/image/star.png" alt="">
+                            </figure>
+                            <p
+                                class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-regal-200 font-semibold leading-1/5">
+                                “We have been working in partnership with Hy-Ram for many
+                                years and over that time they have proven to be an important part
+                                of our business. As Category Managers we need to be able to rely on
+                                our preferred suppliers and I can safely say we can rely on Hy-Ram.”</p>
+                            <div class="pt-5">
+                                <span
+                                    class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-black font-medium leading-1/5 block">Michael
+                                    Bandy,
+                                </span>
+                                <span
+                                    class="text-sm 2xl:text-sm xl:text-sm lg:text-sm md:text-[14px] sm:text-[14px] text-black font-light leading-1/5 block">Category
+                                    Manager Plant & Hired Services, Kier Group</span>
+                            </div>
+                        </div>
+                        <div
+                            class="basis-2/5 2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:basis-2/5 sm:basis-full max-w-2/5 2xl:max-w-2/5 xl:max-w-2/5 lg:max-w-2/5 md:max-w-2/5 sm:max-w-full w-full 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-6">
+                            <div
+                                class="max-w-293 xl:max-w-293 lg:max-w-[220px] md:max-w-[175px] sm:max-w-[140px] h-293 xl:h-293 lg:h-[220px] md:h-[175px] sm:h-[140px] bg-regal-200 shadow-[0px_3px_8px_0px_rgba(0,0,0,0.36)] w-full rounded-full mx-auto border-8 border-white">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = latest seciton = -->
+    <!-- ============================ -->
+    <section
+        class="pt-16 2xl:pt-16 xl:pt-14 lg:pt-11 md:pt-11 sm:pt-11 pb-20 xl:pb-16 lg:pb-14 md:pb-14 sm:pb-14 bg-regal-800 relative">
+        <figure
+            class="absolute max-w-158 w-full top-[-37%] h-515 right-0 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="object-contain w-full h-full" src="assets/image/half-circle4.png" alt="">
+        </figure>
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <h2 class="font-semibold text-30 xl:text-30 lg:text-[27px] text-regal-200 leading-1/5 text-center">Latest
+                news</h2>
+            <ul
+                class="flex items-center justify-center pt-10 2xl:pt-10 xl:pt-9 lg:pt-8 md:pt-8 sm:pt-8 -mx-8 xl:-mx-6 lg:-mx-6 md:-mx-6 sm:-mx-6 pb-16 2xl:pb-16 xl:pb-14 lg:pb-12 md:pb-12 sm:pb-12 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+                <li
+                    class="basis-1/3 2xl:basis-1/3 xl:basis-1.3 lg:basis-1/3 md:basis-1/3 sm:basis-[75%] mx-8 xl:mx-6 lg:mx-6 md:mx-6 sm:mx-6 cursor-pointer group relative transition-all 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-8">
+                    <figure><img class="object-contain w-full h-full" src="assets/image/latest-img1.png" alt="">
+                    </figure>
+                    <div
+                        class="px-8 2xl:px-8 xl:px-6 lg:px-2 md:px-2 sm:px-2 pt-3 bg-white pb-3 h-20 flex items-center justify-center">
+                        <span
+                            class="font-semibold text-18 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] leading-1/5 text-black text-center block">PE
+                            Pipe Squeeze Off – Why choose
+                            Hy-Ram for your tooling</span>
+                    </div>
+                    <div
+                        class="absolute top-0 bottom-0 right-0 left-0 w-full h-full bg-regal-900 flex justify-center items-center opacity-0 group-hover:opacity-100 duration-700">
+                        <a href="#" class="flex items-center justify-center w-11 h-11 rounded-full"><img
+                                class="object-contain w-full h-full" src="assets/image/round-arrow.png" alt=""></a>
+                    </div>
+                </li>
+                <li
+                    class="basis-1/3 2xl:basis-1/3 xl:basis-1.3 lg:basis-1/3 md:basis-1/3 sm:basis-[75%] mx-8 xl:mx-6 lg:mx-6 md:mx-6 sm:mx-6 cursor-pointer group relative transition-all 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-8">
+                    <figure><img class="object-contain w-full h-full" src="assets/image/latest-img2.png" alt="">
+                    </figure>
+                    <div
+                        class="px-8 2xl:px-8 xl:px-6 lg:px-2 md:px-2 sm:px-2 pt-3 bg-white pb-3 h-20 flex items-center justify-center">
+                        <span
+                            class="font-semibold xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] leading-1/5 text-black text-center block">Mechanical
+                            Design Engineer Vacancy</span>
+                    </div>
+                    <div
+                        class="absolute top-0 bottom-0 right-0 left-0 w-full h-full bg-regal-900 flex justify-center items-center opacity-0 group-hover:opacity-100 duration-700">
+                        <a href="#" class="flex items-center justify-center w-11 h-11 rounded-full"><img
+                                class="object-contain w-full h-full" src="assets/image/round-arrow.png" alt=""></a>
+                    </div>
+                </li>
+                <li
+                    class="basis-1/3 2xl:basis-1/3 xl:basis-1.3 lg:basis-1/3 md:basis-1/3 sm:basis-[75%] mx-8 xl:mx-6 lg:mx-6 md:mx-6 sm:mx-6 cursor-pointer group relative transition-all ">
+                    <figure><img class="object-contain w-full h-full" src="assets/image/latest-img3.png" alt="">
+                    </figure>
+                    <div
+                        class="px-8 2xl:px-8 xl:px-6 lg:px-2 md:px-2 sm:px-2 pt-3 bg-white pb-3 h-20 flex items-center justify-center">
+                        <span
+                            class="font-semibold xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] leading-1/5 text-black text-center block">NEW
+                            Website released!</span>
+                    </div>
+                    <div
+                        class="absolute top-0 bottom-0 right-0 left-0 w-full h-full bg-regal-900 flex justify-center items-center opacity-0 group-hover:opacity-100 duration-700">
+                        <a href="#" class="flex items-center justify-center w-11 h-11 rounded-full"><img
+                                class="object-contain w-full h-full" src="assets/image/round-arrow.png" alt=""></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="flex items-center justify-center">
+                <a class="flex items-center justify-center group px-2.5 mr-9 py-2 relative  bg-regal-200 rounded-br-3xl hover:bg-regal-100 transition-all duration-300 max-w-136 w-full"
+                    href="#"><span class="text-white font-semibold text-sm group-hover:text-regal-200">Read Me</span>
+                    <img class="ml-4 object-contain hidden group-hover:block" src="assets/image/header-arrow.png"
+                        alt="">
+                    <img class="ml-4 object-contain group-hover:hidden" src="assets/image/white-sm-arrow.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = equipment seciton = -->
+    <!-- ============================ -->
+    <section class="py-24 relative xl:py-20 lg:py-16 md:py-14 sm:py-12">
+        <figure
+            class="absolute left-0 -top-16 xl:-top-20 lg:-top-8 max-w-278 2xl:max-w-278 xl:max-w-[13%] lg:max-w-[10%] md:max-w-[10%] w-full h-485f 2xl:h-485f xl:h-[30%] lg:h-[25%] md:h-[26%] 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="object-contain w-full h-full" src="assets/image/half-circle2.png" alt="">
+        </figure>
+        <figure
+            class="absolute right-0 bottom-20 max-w-278 2xl:max-w-278 xl:max-w-[13%] lg:max-w-[10%] md:max-w-[10%] w-full h-485f 2xl:h-485f xl:h-[38%] lg:h-[30%] md:h-[30%] 2xl:block xl:block lg:block md:block sm:hidden">
+            <img class="object-contain w-full h-full rotate-180" src="assets/image/half-circle2.png" alt="">
+        </figure>
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <div
+                class="max-w-1080 xl:max-w-[95%] lg:max-w-[95%] mx-auto border-3 border-regal-100 p-105all mb-24 xl:mb-20 lg:mb-16 md:mb-14 sm:mb-12">
+                <h2
+                    class="font-semibold text-30 xl:text-30 lg:text-[27px] md:text-[25px] sm:text-[20px] text-regal-200 leading-1/5 text-center">
+                    Interested in supplying our equipment to your market?
+                    Become a Hy-Ram distributor today</h2>
+                <div class="flex items-center justify-center pt-11 xl:pt-9 lg:pt-7 md:pt-7 sm:pt-7">
+                    <a class="flex items-center justify-center group px-2.5 mr-9 py-2 relative  bg-regal-200 rounded-br-3xl hover:bg-regal-100 transition-all duration-300 max-w-212 w-full 2xl:mx-0 xl:mx-0 lg:mx-0 md:mx-0 sm:mx-auto"
+                        href="#"><span class="text-white font-semibold text-sm group-hover:text-regal-200">Become a
+                            Distributor</span>
+                        <img class="ml-4 object-contain hidden group-hover:block" src="assets/image/header-arrow.png"
+                            alt="">
+                        <img class="ml-4 object-contain group-hover:hidden" src="assets/image/white-sm-arrow.png"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+            <hr class="border border-regal-300 block opacity-100">
+            <div
+                class="flex pt-11 pl-60 xl:pl-[40px] lg:pl-[30px] md:pl-[30px] sm:pl-[0px] pr-7 2xl:pr-7 xl:pr-7 lg:pr-7 md:pr-7 sm:pr-0 relative 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+                <figure
+                    class="absolute left-[59%] top-1/2 translate-x-[-50%] translate-y-[-50%] 2xl:block xl:block lg:block md:block sm:hidden">
+                    <img class="object-contain w-full h-full" src="assets/image/lines2.png" alt="">
+                </figure>
+                <div
+                    class="basis-55 2xl:basis-55 xl:basis-55 lg:basis-55 md:basis-55 sm:basis-[100%] max-w-55 2xl:max-w-55 xl:max-w-55 lg:max-w-55 md:max-w-55 sm:max-w-[100%] pr-5 2xl:pr-5 xl:pr-5 lg:pr-5 md:pr-5 sm:pr-0">
+                    <h2
+                        class="font-semibold text-30 xl:text-30 lg:text-[27px] md:text-[25px] sm:text-[20px] text-regal-200 leading-1/5">
+                        Join Our Mailing List</h2>
+                    <div class="max-w-xs">
+                        <span
+                            class="text-sm 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] leading-1/5 text-regal-700 font-normal">Keep
+                            up-to-date with the latest news
+                            events and product information.</span>
+                    </div>
+                    <form action="" class="pt-6">
+                        <div
+                            class="grid grid-cols-2 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-x-11 2xl:gap-x-11 xl:gap-x-11 lg:gap-x-8 md:gap-x-6 sm:gap-x-0 gap-y-6">
+                            <input type="text"
+                                class="p-1.5 pr-3 border placeholder:text-regal-50 border-regal-50 rounded-br-29 outline-0 text-regal-200 text-sm 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] font-semibold focus:outline-0 focus:border-regal-50"
+                                placeholder="Name..">
+                            <input type="email"
+                                class="p-1.5 pr-3 border placeholder:text-regal-50 border-regal-50 rounded-br-29 outline-0 text-regal-200 text-sm 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] font-semibold focus:outline-0 focus:border-regal-50 "
+                                placeholder="Email...">
+                            <input type="number"
+                                class="p-1.5 pr-3 border placeholder:text-regal-50 border-regal-50 rounded-br-29 outline-0 text-regal-200 text-sm 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] font-semibold focus:outline-0 focus:border-regal-50"
+                                placeholder="Phone..">
+                            <input type="text"
+                                class="p-1.5 pr-3 border placeholder:text-regal-50 border-regal-50 rounded-br-29 outline-0 text-regal-200 text-sm 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] font-semibold focus:outline-0 focus:border-regal-50"
+                                placeholder="Subject..">
+                        </div>
+                        <textarea placeholder="How can we help you? Feel free get in touch!"
+                            class="placeholder:text-regal-50 w-full h-28 mt-7 p-1.5 pr-6 border border-regal-50 rounded-br-56 outline-0 text-regal-200 text-sm 2xl:text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[14px] font-semibold focus:outline-0 focus:border-regal-50"></textarea>
+                        <a class="flex items-center group px-2.5 mr-9  py-2 relative  bg-regal-200 rounded-br-3xl hover:bg-regal-100 transition-all duration-300 max-w-150 w-full mt-7"
+                            href="#"><span class="text-white font-semibold text-sm group-hover:text-regal-200">Get in
+                                Touch</span>
+                            <img class="ml-4 object-contain hidden group-hover:block"
+                                src="assets/image/header-arrow.png" alt="">
+                            <img class="ml-4 object-contain group-hover:hidden" src="assets/image/white-sm-arrow.png"
+                                alt="">
+                        </a>
+                    </form>
+                </div>
+                <div
+                    class="max-w-45 2xl:max-w-45 xl:max-w-45 lg:max-w-45 md:max-w-45 sm:max-w-[100%] basis-45 2xl:basis-45 xl:basis-45 lg:basis-45 md:basis-45 sm:basis-[100%] flex flex-col justify-between 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-8">
+                    <ul class="max-w-72 xl:max-w-[80%] lg:max-w-[82%] md:max-w-72 sm:max-w-[100%] ml-auto w-full ">
+                        <li class="pb-9 xl:pb-7 lg:pb-5 md:pb-5 sm:pb-4">
+                            <a href="tel:+44 (0)1623 422982" class="flex items-center">
+                                <img src="assets/image/phone.png" class="object-contain h-3.5 w-3.5 mr-2.5" alt="">
+                                <span
+                                    class="inline-block text-regal-200 font-semibold text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[15px]  leading-1/5">+44
+                                    (0)1623 422982
+                                </span>
+                            </a>
+                        </li>
+                        <li class="pb-9 xl:pb-7 lg:pb-5 md:pb-5 sm:pb-4">
+                            <a href="mailto:enquiries@hyram.com" class="flex items-center">
+                                <img src="assets/image/email.png" class="object-contain h-3.5 w-3.5 mr-2.5" alt="">
+                                <span
+                                    class="inline-block text-regal-200 font-semibold text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[15px] leading-1/5">enquiries@hyram.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <img src="assets/image/clock.png" class="object-contain h-3.5 w-3.5 mr-2.5" alt="">
+                                <span
+                                    class="inline-block text-regal-200 font-semibold text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[15px] leading-1/5">Mon
+                                    – Thu 8am – 5pm, Fri 8am – 4pm
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div
+                        class="max-w-72 xl:max-w-[80%] lg:max-w-[82%] md:max-w-72 sm:max-w-[100%] ml-auto w-full 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-8">
+                        <span
+                            class="font-semibold text-18 xl:text-[17px] lg:text-[16px] md:text-[15px] sm:text-[15px] text-regal-200 leading-1/5 pb-6 xl:pb-5 lg:pb-4 md:pb-4 sm:pb-4 block">Get
+                            Connected</span>
+                        <ul class="flex items-center">
+                            <li class="pr-2.5">
+                                <a href="#" class="rounded-full h-8 w-8 "><img class="object-contain w-full h-full"
+                                        src="assets/image/fb.png" alt=""></a>
+                            </li>
+                            <li class="pr-2.5">
+                                <a href="#" class="rounded-full h-8 w-8 "><img class="object-contain w-full h-full"
+                                        src="assets/image/insta.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#" class="rounded-full h-8 w-8 "><img class="object-contain w-full h-full"
+                                        src="assets/image/tw.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ -->
+    <!-- = Footer = -->
+    <!-- ============================ -->
+    <footer class="bg-regal-200 py-12 xl:py-10 lg:py-9 md:py-9 sm:py-9">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <hr class="border border-white opacity-100">
+            <ul
+                class="pt-75 xl:pt-[4%] lg:pt-[4%] md:pt-[4%] sm:pt-[4%] pl-60 xl:pl-[40px] lg:pl-[30px] md:pl-[30px] sm:pl-[0px] pr-9 2xl:pr-9 xl:pr-9 lg:pr-9 md:pr-9 sm:pr-0 pb-60 xl:pb-[50px] lg:pb-[40px] md:pb-[40px] sm:pb-[40px] flex 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+                <li
+                    class="basis-1/3 2xl:basis-1/3 xl:basis-1/3 lg:basis-1/3 md:basis-1/3 sm:basis-[100%] max-w-[33.333%] 2xl:max-w-[33.333%] xl:max-w-[33.333%] lg:max-w-[33.333%] md:max-w-[33.333%] sm:max-w-[100%] 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-6">
+                    <div>
+                        <span class="text-white font-semibold leading-1/5 text-sm underline">About Hy-Ram
+                            Engineering</span>
+                        <ul class="pt-8 2xl:pt-8 xl:pt-8 lg:pt-8 md:pt-7 sm:pt-4">
+                            <li>
+                                <span class="text-regal-100 font-normal text-sm leading-1/5">About</span>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Careers</a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Manufacturing/Design</a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Compliance</a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">News
+                                    & Events
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Videos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">International
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Become
+                                    a Distributor</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li
+                    class="basis-1/3 2xl:basis-1/3 xl:basis-1/3 lg:basis-1/3 md:basis-1/3 sm:basis-[100%] max-w-[33.333%] 2xl:max-w-[33.333%] xl:max-w-[33.333%] lg:max-w-[33.333%] md:max-w-[33.333%] sm:max-w-[100%] flex justify-center 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-6">
+                    <div class="pl-[16%] 2xl:pl-[16%] xl:pl-[16%] lg:pl-[16%] md:pl-[16%] sm:pl-[0%] w-full">
+                        <span class="text-white font-semibold leading-1/5 text-sm underline">Our Products</span>
+                        <ul class="pt-8 2xl:pt-8 xl:pt-8 lg:pt-8 md:pt-7 sm:pt-4">
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Butt
+                                    Fusion
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Electrofusion
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Ancillary
+                                    Equipment
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">PE
+                                    Pipe Squeeze Off
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Pipe
+                                    Cutters
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Under
+                                    Pressure Drilling
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Gas
+                                    Tooling
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Water
+                                    Tooling
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Trenchless
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Flow
+                                    Stopping
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">General
+                                    Tools
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li
+                    class="basis-1/3 2xl:basis-1/3 xl:basis-1/3 lg:basis-1/3 md:basis-1/3 sm:basis-[100%] max-w-[33.333%] 2xl:max-w-[33.333%] xl:max-w-[33.333%] lg:max-w-[33.333%] md:max-w-[33.333%] sm:max-w-[100%] flex justify-end 2xl:justify-end xl:justify-end lg:justify-end md:justify-end sm:justify-start">
+                    <div>
+                        <span class="text-white font-semibold leading-1/5 text-sm underline">Information</span>
+                        <ul class="pt-8 2xl:pt-8 xl:pt-8 lg:pt-8 md:pt-7 sm:pt-4">
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Sales</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Hire
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Repair</a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Downloads
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Contact
+                                    Us
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Privacy
+                                    Policy
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="text-white font-normal text-sm leading-1/5 hover:text-regal-100 transition-all duration-500">Sitemap
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <hr class="border border-white opacity-100">
+        </div>
+    </footer>
+    <!-- ============================ -->
+    <!-- = logos section = -->
+    <!-- ============================ -->
+    <section class="py-24 xl:py-20 lg:py-16 md:py-16 sm:py-12">
+        <div class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6">
+            <ul
+                class="flex items-center justify-center 2xl:flex-nowrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+                <li
+                    class="pr-7 2xl:basis-auto xl:basis-auto 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9 lg:basis-auto md:basis-auto sm:basis-auto ">
+                    <img class="object-contain w-full h-full" src="assets/image/logos1.png" alt="">
+                </li>
+                <li
+                    class="pr-7 2xl:pr-7 xl:pr-7 lg:pr-7 md:pr-7 sm:pr-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9 2xl:basis-auto xl:basis-auto lg:basis-auto md:basis-auto sm:basis-1/2">
+                    <img class="object-contain w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-[120px] mx-auto h-full"
+                        src="assets/image/logos2.png" alt="">
+                </li>
+                <li
+                    class="pr-7 2xl:basis-auto xl:basis-auto 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9 lg:basis-auto md:basis-auto sm:basis-1/2">
+                    <img class="object-contain w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-[120px] mx-auto h-full"
+                        src="assets/image/logos3.png" alt="">
+                </li>
+                <li
+                    class="pr-7 2xl:pr-7 xl:pr-7 lg:pr-7 md:pr-7 sm:pr-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9 2xl:basis-auto xl:basis-auto lg:basis-auto md:basis-auto sm:basis-1/2">
+                    <img class="object-contain w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-[120px] mx-auto h-full"
+                        src="assets/image/logos4.png" alt="">
+                </li>
+                <li
+                    class="pr-7 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9 2xl:basis-auto xl:basis-auto lg:basis-auto md:basis-auto sm:basis-1/2">
+                    <img class="object-contain w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-[120px] mx-auto h-full"
+                        src="assets/image/logos5.png" alt="">
+                </li>
+                <li
+                    class="pr-7 2xl:pr-7 xl:pr-7 lg:pr-7 md:pr-7 sm:pr-0 2xl:mb-0 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-9 2xl:basis-auto xl:basis-auto lg:basis-auto md:basis-auto sm:basis-1/2">
+                    <img class="object-contain w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-[120px] mx-auto h-full"
+                        src="assets/image/logos6.png" alt="">
+                </li>
+                <li>
+                    <img class="object-contain w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-[120px] mx-auto h-full"
+                        src="assets/image/logos7.png" alt="">
+                </li>
+            </ul>
+            <div class="pt-60 2xl:pt-60 xl:pt-60 lg:pt-[40px] md:pt-[40px] sm:pt-[30px] flex item justify-center">
+                <figure class="max-w-278 2xl:max-w-278 xl:max-w-278 lg:max-w-278 md:max-w-278 sm:max-w-[150px] w-full">
+                    <img class="object-contain w-full h-full" src="assets/image/logos8.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <div class="bg-regal-800">
+        <div
+            class="container px-0 2xl:px-0 xl:px-10 lg:px-8 md:px-7 sm:px-6 flex items-center justify-between py-10 2xl:py-10 xl:py-10 lg:py-10 md:py-7 sm:py-6 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col">
+            <span
+                class="text-sm xl:text-sm lg:text-[14px] md:text-[14px] sm:text-[14px] font-semibold text-regal-200 leading-1/5 block">©
+                Hy-Ram Engineering. All Rights Reserved. Site by Bubble Design.</span>
+            <span
+                class="text-sm xl:text-sm lg:text-[14px] md:text-[14px] sm:text-[14px] font-semibold text-regal-200 leading-1/5 block">Hy-Ram
+                Engineering Co. Ltd, Pelham Street, Mansfield, Nottinghamshire, NG18 2EY.</span>
+        </div>
+    </div>
+
+    <!-- <section>
+        <div class="container">
+            <ul class="home-slider owl-carousel learning-silder">
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">Regulatory supervision and climate risk</span>
+                    </div>
+                    <div class="slider-cnt">
+                        <p>A former deputy head of the Prudential Regulation Authority and executive director for
+                            supervisory risk and regulatory operations at the Bank of England. Also a leading figure in
+                            the European Commission’s high level expert group on sustainable finance.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">ESG frameworks and responsible investment</span>
+                    </div>
+                    
+                    <div class="slider-cnt">
+                        <p>The founder of The Stewardship Centre, chair of the Responsible Investment Association of
+                            Australasia and a director of US-based think tank The Shareholder Commons. She has advised
+                            leading global financial institutions on responsible investment.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">Sustainable banking services and products</span>
+                    </div>
+                    <div class="slider-cnt">
+                        <p>A former leader of the Centre for Sustainable Finance at the University Cambridge, where he
+                            helped develop frameworks for helping banks engage clients on net zero. He steered the
+                            Banking Environment Initiative. A former head of UK debt capital markets at Credit Suisse.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">Trade finance, renewables and fintech</span>
+                    </div>
+                    
+                    <div class="slider-cnt">
+                        <p>A former senior economist at The Economist Intelligence Unit covering nine African countries
+                            and 25 commodity classes. He has written extensively on sustainable trade finance and the
+                            intersection between ESG and fintech..</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">Regulatory supervision and climate risk</span>
+                    </div>
+                    <div class="slider-cnt">
+                        <p>A former deputy head of the Prudential Regulation Authority and executive director for
+                            supervisory risk and regulatory operations at the Bank of England. Also a leading figure in
+                            the European Commission’s high level expert group on sustainable finance.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">ESG frameworks and responsible investment</span>
+                    </div>
+                    
+                    <div class="slider-cnt">
+                        <p>The founder of The Stewardship Centre, chair of the Responsible Investment Association of
+                            Australasia and a director of US-based think tank The Shareholder Commons. She has advised
+                            leading global financial institutions on responsible investment.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">Sustainable banking services and products</span>
+                    </div>
+                    <div class="slider-cnt">
+                        <p>A former leader of the Centre for Sustainable Finance at the University Cambridge, where he
+                            helped develop frameworks for helping banks engage clients on net zero. He steered the
+                            Banking Environment Initiative. A former head of UK debt capital markets at Credit Suisse.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="learning-silder-top-cnt">
+                        <span class="slider-header slider-header-green">Trade finance, renewables and fintech</span>
+                    </div>
+                    
+                    <div class="slider-cnt">
+                        <p>A former senior economist at The Economist Intelligence Unit covering nine African countries
+                            and 25 commodity classes. He has written extensively on sustainable trade finance and the
+                            intersection between ESG and fintech..</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+
+
+</body>
+<!-- js links -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</html>
